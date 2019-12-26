@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","TestCases.test_getAllUsersFirstName#test_All_StatusCode","146",""
+"passed","TestCases.test_get2AllUser#test_All_Users_FirstNamesfsf","607",""
+"failed","TestCases.test_getAllUsersFirstName#test_All_Users_FirstName","141",""
+"passed","TestCases.test_get2AllUser#test_All_StatusCodedfsfds","143",""

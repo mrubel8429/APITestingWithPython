@@ -1,0 +1,52 @@
+{
+  "uid" : "9b7c6904a101ee76",
+  "name" : "test_All_Users_FirstName",
+  "fullName" : "TestCases.test_getAllUsersFirstName#test_All_Users_FirstName",
+  "historyId" : "a97008eee732879bf057a46970a64b3a",
+  "time" : {
+    "start" : 1577374725972,
+    "stop" : 1577374726212,
+    "duration" : 240
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 200 == 206\n +  where 200 = <Response [200]>.status_code",
+  "statusTrace" : "def test_All_Users_FirstName():\n        url = 'https://reqres.in/api/users?page=2'\n        res = requests.get(url)\n>       assert res.status_code == 206\nE       assert 200 == 206\nE        +  where 200 = <Response [200]>.status_code\n\nTestCases/test_getAllUsersFirstName.py:9: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_getAllUsersFirstName"
+  }, {
+    "name" : "host",
+    "value" : "mds-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "5973-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_getAllUsersFirstName"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b7c6904a101ee76.json",
+  "parameterValues" : [ ]
+}
